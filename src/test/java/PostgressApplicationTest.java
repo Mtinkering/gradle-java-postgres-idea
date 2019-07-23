@@ -2,10 +2,10 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;
 
-public class AppTest {
+public class PostgressApplicationTest {
     @Test
     public void testAppHasAGreeting() {
-        App classUnderTest = new App();
+        PostgressApplication classUnderTest = new PostgressApplication();
         assertNotNull("app should have a greeting", classUnderTest.getGreeting());
     }
 }
